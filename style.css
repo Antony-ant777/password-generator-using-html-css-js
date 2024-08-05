@@ -1,0 +1,66 @@
+body {
+   
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url(./lap\ gen.jpeg);
+    background-size: 100%;
+}
+
+
+
+.container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.in:hover{
+    box-shadow: 20px 20px 60px rgba(195, 196, 197, 0.879) ;
+}
+.in{
+    margin-top: 20px;
+    padding: 20px;
+    width: 40%;
+    background-color: #1d4067a1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input {
+    width: 40%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #c9d2dc;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    transform: scale(1, 1.1);
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: #f0f0f0;
+    color: black;
+}
+button:active {
+    background-color: #0056b3;
+    color: aliceblue;
+}
+h3{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
